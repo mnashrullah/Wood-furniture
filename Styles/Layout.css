@@ -294,3 +294,26 @@ footer {
     font-weight: bold;
     padding-top: 5px;
 }
+
+.button {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #9c591e;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+.button:hover, .addtocartbutton:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+}
