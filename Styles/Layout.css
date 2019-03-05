@@ -232,4 +232,65 @@ footer {
 
 .smalltext {
     font-size: 10px;
-} 
+}
+
+/*furniture detail page*/
+
+.furnituredetails {
+    float: left;
+    width: 1000px;
+}
+
+.productarticlelargeimage {
+    width: 200px;
+    height: 300px;
+}
+
+.productarticlelargefigure {
+    float: left;
+    margin: 10px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+/* Style the images inside the grid */
+
+.column img {
+    width: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.productarticlecontent {
+    width: 75%;
+    float: right;
+}
+
+.productarticledescription {
+    word-wrap: normal;
+}
+
+.productarticleprice {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 5px;
+}
