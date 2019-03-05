@@ -33,3 +33,57 @@ header {
     font-family: headerfont;
     src: url('../fonts/Lobster_1.3.otf');
 }
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, #9c591e, #723a05);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9c591e, #723a05);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9c591e, #723a05);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9c591e, #723a05);
+}
+
+.navlink {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink.active {}
+
+.navlink>img {
+    height: 16px;
+}
+
+#welcomeimage {
+    float: left;
+    width: 700px;
+}
+
+#furnitureofthemonth {
+    float: right;
+    width: 290px;
+}
