@@ -3,5 +3,33 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: Verdana;
- }
- 
+}
+
+header {
+    font-weight: bold;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+.headerlogo>img {
+    height: 60px;
+    width: 60px;
+}
+
+#headername {
+    font-size: 40px;
+    font-family: headerfont;
+    text-shadow: 5px 5px 5px #a88070;
+    color: #6d3e16;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf');
+}
