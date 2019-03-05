@@ -143,3 +143,93 @@ nav ul li {
     font-size: 15px;
     font-weight: bold;
 }
+
+.furniturebestsellers {
+    float: left;
+}
+
+.furniturebestsellers>header {
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.accessoriesbestsellers {
+    clear: both;
+}
+
+.accessoriesbestsellers>header {
+    height: 30px;
+    line-height: 30px;
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.furniturebestsellers {
+    float: left;
+}
+
+.furniturebestsellers>header {
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.accessoriesbestsellers {
+    clear: both;
+}
+
+.accessoriesbestsellers>header {
+    height: 30px;
+    line-height: 30px;
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.productarticle {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+.productarticlename {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #3d2510;
+    color: #948c66;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
