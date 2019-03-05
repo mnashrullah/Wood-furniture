@@ -87,3 +87,46 @@ nav ul li {
     float: right;
     width: 290px;
 }
+
+#welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 2;
+}
+
+#welcometext>header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events>header {
+    margin-left: 10px;
+    color: #9c591e;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events>ul {
+    list-style: none;
+}
+
+#events>ul>li {
+    margin-bottom: 3px;
+}
