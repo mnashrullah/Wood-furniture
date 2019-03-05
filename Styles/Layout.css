@@ -130,3 +130,16 @@ nav ul li {
 #events>ul>li {
     margin-bottom: 3px;
 }
+
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#bestsellers>header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+}
