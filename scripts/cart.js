@@ -29,7 +29,10 @@ window.onload = function () {
                 currentCart[i].id + " " + currentCart[i].price + "";
             cartitem.appendChild(liElement);
         }
+        console.log(currentCart);
+        console.log(JSON.stringify(currentCart));
         localStorage.setItem('cart', JSON.stringify(currentCart));
+        console.log(JSON.parse(localStorage.getItem('cart')));
     };
     emptyCart.addEventListener("click", function (ev) {
         currentCart = new Array();
