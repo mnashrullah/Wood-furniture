@@ -3,9 +3,13 @@ window.onload = function () {
     var shoppingcart = document.getElementById("shoppingcart");
     var cartitem = document.querySelectorAll("#shoppingcart ul")[0];
     var emptyCart = document.getElementById("emptyCart");
-
-    var currentCart = new Array();
-
+    // var currentCart = new Array();
+    currentCart = JSON.parse(localStorage.getItem('cart'));
+    if (!currentCart) {
+        currentCart = new Array();
+    }
+    UpdateShoppingCartUI();
+ 
     for (var i = 0; i < addtocartbtns.length; i++) {
         addtocartbtns[i].addEventListener("click", function (ev) {
             var furnitureId = this.getAttribute("data-item");
@@ -25,6 +29,10 @@ window.onload = function () {
                 currentCart[i].id + " " + currentCart[i].price + "";
             cartitem.appendChild(liElement);
         }
+        localStorage.setItem('cart', JSON.stringify(currentCart));
     };
-
+    emptyCart.addEventListener("click", function (ev) {
+        currentCart = new Array();
+        UpdateShoppingCartUI();
+    });
 }
