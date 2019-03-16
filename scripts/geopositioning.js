@@ -39,19 +39,19 @@ window.onload = function () {
         }
     }
     function showMap(lat, lang) {
-
+        // https://www.maps.ie/coordinates.html
         var directionsService = new google.maps.DirectionsService();
         var directionsRenderer = new google.maps.DirectionsRenderer();
 
         var route = {
             origin: new google.maps.LatLng(lat, lang),
-            destination: "Singapore Polytechnic, Singapore",
+            destination: "Ciwalk, Bandung",
             travelMode: google.maps.DirectionsTravelMode.DRIVING
         };
 
         var mapOptions = {
             zoom: 13,
-            center: new google.maps.LatLng(1.308953, 103.779656),
+            center: new google.maps.LatLng(-6.892917, 107.605493),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
